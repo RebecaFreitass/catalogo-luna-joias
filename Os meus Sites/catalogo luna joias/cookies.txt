@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+lojademo.meucatalogodigital.com	TRUE	/lojademo/	FALSE	1999999999	lojademo	PT13ZWlrR1pmeDJicUZtSTZJQ05pd2lJcFIyWDFOWFp5SmlPaVlqTW1aRFo0Y3pZMElHWnpNaklzSXlZaEpuY3A1R2F2SmlPd3dpSWpWSGN2MW1JNjRXZHN4V2Y%3D
+
