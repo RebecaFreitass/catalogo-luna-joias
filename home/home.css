@@ -164,7 +164,7 @@ body{
 
 /* CATEGORIES */
 main {
-    height: auto;
+    height: 80vh;
     margin: 10rem 0;
 }
 .main-categories{
@@ -235,6 +235,9 @@ main {
         text-transform: uppercase;
         margin-bottom: 1.5rem;
         font-size: 2.0rem;
+    }
+    main{
+        height: auto;
     }
 }
 
