@@ -3,9 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
+html{
+    width: 100vw;
+}
 body{
     background-color: hsla(1, 42%, 75%, 0.242);
+    
 }
 @font-face {
     font-family: "gramond";
@@ -26,31 +29,40 @@ body{
     width: 120px;
     cursor: pointer;
 }
-#logo-home {
+.main-header {
     display: flex;
     justify-content: space-around;
     padding: 2rem 0;
     align-items: center;
 }
-#logo-home nav a{
+.main-header span{
+    font-size: 1.0rem;
+    text-transform: uppercase;
+    font-family: "Monstart";
+}
+.main-header nav a{
     color:hsla(356, 29%, 20%, 0.783);
     font-size: 1.2rem;
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Monstart";
     border-radius: 0.5rem;
-    
-    
-}
-#logo-home nav a:hover{
     background-image: linear-gradient(to right, hsla(1, 42%, 75%, 0.242), hsla(1, 42%, 75%, 0.612));
     transition-duration: 0.2s;
     border: none;
     padding: 0.5rem;
+    
+    
+}
+.main-header nav a:hover{
+    background-image: linear-gradient(to left, hsla(1, 42%, 75%, 0.242), hsla(1, 42%, 75%, 0.612));
+    transition-duration: 1s;
+    
+
 }
 #line-header {
     border-bottom: 1px solid hsla(356, 29%, 20%, 0.241);
-    width: 113rem;
+    width: 90vw;
     margin: 0 auto;
 }
 
@@ -60,7 +72,7 @@ body{
 /* CATEGORIES */
 main {
     height: 100vh;
-    margin-top: 10rem;
+    margin: 10rem 0;
 }
 .main-categories{
     text-align: center;
@@ -107,11 +119,16 @@ main {
     border: 1px solid hsla(356, 29%, 20%, 0.796);
     padding: 0.5rem;
     
-    background-color: hsla(1, 42%, 75%, 0.612) ;
+    background-color: #daa5a49c ;
     color: white;
     transition-duration: 1s;
 }
-
+@media (max-width:768px){
+    #logo-home span {
+        
+        width: 6rem;
+    }
+}
 
 
 /* FOOTER */
@@ -120,12 +137,21 @@ footer{
     border-radius: 0 20rem 0 0;
     height: 30vh;
 }
-.main-footer{
-    padding: 0 10rem 0 10rem;  
+.main-footer {
+    padding: 5rem 10rem 0 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .main-footer img{
     padding: 1rem;
 }
  #logo-ansize{
     width: 80px;
+ }
+ .social-midia-icons{
+    display: flex;
+ }
+ .social-midia-icons img{
+    width: 32px;
  }
