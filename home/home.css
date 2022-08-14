@@ -7,6 +7,10 @@
 body{
     background-color: hsla(1, 42%, 75%, 0.242);
 }
+@font-face {
+    font-family: "gramond";
+    src: url();
+}
 
 /* HEADER */
 
