@@ -1,11 +1,18 @@
 body{
     background-color: hsl(1, 42%, 75%);
 }
+
+@font-face {
+    font-family: ;
+    src: url(/);
+}
+
+
 /* HEADER */
-header img{
+header img {
     display: block;
     border-radius: 50%;
-    width: 160px;
+    width: 120px;
     cursor: pointer;
 }
 #logo-home{
@@ -28,8 +35,25 @@ header img{
     align-items: center;
     gap: 5rem;
 }
-.list-categories li a{
+.list-categories .txt-categories{
     color: hsla(356, 29%, 20%, 0.783);
     text-decoration: none;
     font-size: 2rem;
+}
+.list-categories img{
+    max-width: 250px;
+    display: block;
+    border-radius: 0.5rem;
+}
+.item-categorie{
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.item-categorie:hover{
+    border: 1px solid hsla(356, 29%, 20%, 0.796);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: hsla(356, 29%, 20%, 0.509) ;
+    color: white;
+    transition-duration: 0.8s;
 }
