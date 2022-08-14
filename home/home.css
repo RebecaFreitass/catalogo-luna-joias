@@ -9,8 +9,14 @@ body{
 }
 @font-face {
     font-family: "gramond";
-    src: url();
+    src: url('fontes/gramond/static/EBGaramond-Regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: "Monstart";
+    src: url('fontes/Montserrat/static/Montserrat-Light.ttf') 
+    format('truetype');
+}
+
 
 /* HEADER */
 
@@ -28,14 +34,29 @@ body{
 }
 #logo-home nav a{
     color:hsla(356, 29%, 20%, 0.783);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Monstart";
+    border-radius: 0.5rem;
+    
+    
+}
+#logo-home nav a:hover{
+    background-image: linear-gradient(to right, hsla(1, 42%, 75%, 0.242), hsla(1, 42%, 75%, 0.612));
+    transition-duration: 0.2s;
+    border: none;
+    padding: 0.5rem;
 }
 #line-header {
     border-bottom: 1px solid hsla(356, 29%, 20%, 0.241);
     width: 113rem;
     margin: 0 auto;
 }
+
+
+
+
 /* CATEGORIES */
 main {
     height: 100vh;
@@ -45,17 +66,32 @@ main {
     text-align: center;
     color:hsla(356, 29%, 20%, 0.783) ;
 }
+.main-categories h1{
+    font-family: "gramond";
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+.main-categories p{
+    margin-bottom: 2rem;
+    font-size: 1.0rem;
+}
 .list-categories{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
     flex-wrap: wrap;
+    font-family: "Monstart";
+    text-transform: uppercase;
 }
 .list-categories .txt-categories{
     color: hsla(356, 29%, 20%, 0.783);
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+
+    
 }
 .list-categories img{
     max-width: 250px;
@@ -65,15 +101,18 @@ main {
 .item-categorie{
     padding: 0.5rem;
     cursor: pointer;
+    border-radius: 0.5rem;
 }
 .item-categorie:hover{
     border: 1px solid hsla(356, 29%, 20%, 0.796);
     padding: 0.5rem;
-    border-radius: 0.5rem;
+    
     background-color: hsla(1, 42%, 75%, 0.612) ;
     color: white;
-    transition-duration: 0.8s;
+    transition-duration: 1s;
 }
+
+
 
 /* FOOTER */
 footer{
