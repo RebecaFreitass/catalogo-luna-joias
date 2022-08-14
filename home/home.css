@@ -1,0 +1,35 @@
+body{
+    background-color: hsl(1, 42%, 75%);
+}
+/* HEADER */
+header img{
+    display: block;
+    border-radius: 50%;
+    width: 160px;
+    cursor: pointer;
+}
+#logo-home{
+   display: flex;
+   justify-content: center;
+   padding-bottom: 2rem;
+}
+#line-header{
+    border-bottom: 1px solid hsla(356, 29%, 20%, 0.241);
+   
+}
+/* CATEGORIES */
+.main-categories{
+    text-align: center;
+    color:hsla(356, 29%, 20%, 0.783) ;
+}
+.list-categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.list-categories li a{
+    color: hsla(356, 29%, 20%, 0.783);
+    text-decoration: none;
+    font-size: 2rem;
+}
