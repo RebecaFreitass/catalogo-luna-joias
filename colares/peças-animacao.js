@@ -30,4 +30,14 @@ function outElisa(img){
 }
 
 
+function overCora(){
+    document.getElementById("cora").src  ='imagens/choker cora 45,90.jpg'
+}
+function outCora(img){
+    document.getElementById("cora").src ='imagens/choker cora 45,90 uso.jpg'
+}
+
+
+
+
 
