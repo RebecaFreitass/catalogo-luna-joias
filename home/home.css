@@ -208,6 +208,10 @@ main {
     cursor: pointer;
     border-radius: 0.5rem;
     border: 1px solid hsla(356, 29%, 20%, 0.079);
+    text-decoration: none;
+}
+.item-categorie a{
+    text-decoration: none;
 }
 .item-categorie:hover{
     
