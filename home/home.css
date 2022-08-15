@@ -170,7 +170,7 @@ body{
 
 /* CATEGORIES */
 main {
-    height: 80vh;
+    height: auto;
     margin: 10rem 0;
 }
 .main-categories{
@@ -291,5 +291,8 @@ footer{
         border-radius: 0 8rem 0 0;
         height: 24vh;
     
+    }
+    main{
+        height: auto;
     }
  }
