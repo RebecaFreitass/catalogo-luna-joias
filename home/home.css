@@ -217,6 +217,11 @@ main {
     transition-duration: 1s;
 } 
 @media (max-width:425px){
+    main{
+        height: auto;
+    }
+}
+@media (max-width:425px){
     .main-categories h1 {
         font-family: "gramond";
         text-transform: uppercase;
@@ -228,6 +233,7 @@ main {
         font-size: 1.0rem;
         padding: 0px 2rem 0 2rem;
     }
+   
 }
 @media (max-width:320px){
     .main-categories h1 {
@@ -236,9 +242,7 @@ main {
         margin-bottom: 1.5rem;
         font-size: 2.0rem;
     }
-    main{
-        height: auto;
-    }
+    
 }
 
 
