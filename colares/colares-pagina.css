@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +6,7 @@ html{
     width: 100vw;
 }
 body{
-    background-color: var(--background);
+    background-color: hsla(1, 42%, 75%, 0.242);
     
 }
 @font-face {
@@ -27,6 +26,7 @@ body{
     --line-header:#4224263d;
 }
 
+
 /* HEADER */
 
 .logo {
@@ -45,10 +45,10 @@ body{
     font-size: 1.0rem;
     text-transform: uppercase;
     font-family: "Monstart";
-    color:var(--texto) ;
+    color:hsla(356, 29%, 20%, 0.783) ;
 }
 .contact-us a{
-    color:var(--texto) ;
+    color:hsla(356, 29%, 20%, 0.783);
     font-size: 1.2rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -77,18 +77,19 @@ body{
     height: 3px;
     border-radius: 2px;
     margin: 5px auto;
-    background-color: var(--menu-color);
+    background-color: hsla(1, 42%, 75%, 0.813);
     transition: all 0.3s ease-in-out;
 }
 .contact-us-box{
     display: none ;
 }
-.contact-us-box a{
+.contact-us-box a {
     color: white;
     font-size: 1.0rem;
     line-height: 3rem;
     text-decoration: none;
-    font-family: "Monstart"; 
+    font-family: "Monstart";
+    margin-right: 0.5rem;
 }
 .contact-us-box a:hover{
    text-decoration: underline;
@@ -109,7 +110,7 @@ body{
     margin-top: 2rem;
 }
 #line-header {
-    border-bottom: 1px solid var(--line-header);
+    border-bottom: 1px solid hsla(356, 29%, 20%, 0.241);
     width: 90vw;
     margin: 0 auto;
 }
@@ -141,7 +142,7 @@ body{
         height: 10rem;
         gap: 0;
         border-radius: 10px;
-        background-color: var(--menu-color);
+        background-color: hsla(1, 42%, 75%, 0.813);
         text-align: center;
         flex-direction: column;
         width: 40vw;
@@ -161,99 +162,83 @@ body{
             width: 4rem;
             font-size: 0.7rem;
         }
+
+       
       
       }
 
 
-
-
-
-/* CATEGORIES */
+/* MAIN */
 main {
-    height: 80vh;
+    height: auto;
     margin: 10rem 0;
 }
-.main-categories{
-    text-align: center;
-    color:var(--texto);
-}
-.main-categories h1{
+.main-main h1{
     font-family: "gramond";
     text-transform: uppercase;
     margin-bottom: 1.5rem;
     font-size: 2.5rem;
+    color: var(--texto);
+    text-align: center;
 }
-.main-categories p{
+.main-main p{
     margin-bottom: 2rem;
     font-size: 1.0rem;
+    color: var(--texto);
+    text-align: center;
 }
-.list-categories{
+.list-peças{
     display: flex;
+    gap: 3rem;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
     flex-wrap: wrap;
-    font-family: "Monstart";
-    text-transform: uppercase;
 }
-.list-categories .txt-categories{
-    color: var(--texto);
-    text-decoration: none;
-    font-size: 1.5rem;
-    padding-top: 0.5rem;
-
-    
-}
-.list-categories img{
-    max-width: 250px;
+.peças img{
     display: block;
-    border-radius: 0.5rem;
-}
-.item-categorie{
-    padding: 0.5rem;
+    border-radius: 5% 5% 0 0;
     cursor: pointer;
-    border-radius: 0.5rem;
-    border: 1px solid hsla(356, 29%, 20%, 0.079);
-    text-decoration: none;
 }
-.item-categorie a{
-    text-decoration: none;
-}
-.item-categorie:hover{
-    
+.txt-price {
+    text-align: center;
+    color: var(--texto);
+    font-family: "Monstart";
+    font-size: 1.0rem;
     padding: 0.5rem;
-    background-color: var(--background-categories) ;
-    color: white;
-    transition-duration: 1s;
-} 
-@media (max-width:425px){
-    main{
-        height: auto;
-    }
+    background: var(--background-categories);
+    border-radius: 0 0 0.5rem 0.5rem;
+    line-height: 1.2rem;
 }
-@media (max-width:425px){
-    .main-categories h1 {
-        font-family: "gramond";
-        text-transform: uppercase;
-        margin-bottom: 1.5rem;
-        font-size: 2.4rem;
-    }
-    .main-categories p {
-        margin-bottom: 2rem;
-        font-size: 1.0rem;
-        padding: 0px 2rem 0 2rem;
-    }
-   
-}
-@media (max-width:320px){
-    .main-categories h1 {
-        font-family: "gramond";
-        text-transform: uppercase;
-        margin-bottom: 1.5rem;
+
+@media (max-width:350px){
+    .main-main h1{
+     
         font-size: 2.0rem;
+     
     }
+    .main-main p {
     
+        font-size: 0.9rem;
+      
+    }
+    .peças{
+        margin: 0 3rem;
+    }
+    main {
+        height: auto;
+        margin: 5rem 0;
+    }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /* FOOTER */
