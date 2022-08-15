@@ -12,11 +12,11 @@ body{
 }
 @font-face {
     font-family: "gramond";
-    src: url('fontes/gramond/static/EBGaramond-Regular.ttf') format('truetype');
+    src: url('../fontes/gramond/static/EBGaramond-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: "Monstart";
-    src: url('fontes/Montserrat/static/Montserrat-Light.ttf') 
+    src: url('../fontes/Montserrat/static/Montserrat-Light.ttf') 
     format('truetype');
 }
 
